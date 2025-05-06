@@ -56,7 +56,7 @@ const FlowerForm = () => {
       <div className="w-full max-w-2xl bg-white/60 backdrop-blur-md rounded-xl shadow-2xl p-10 border border-white/40">
         <h2 className="text-4xl font-extrabold text-center text-purple-700 mb-8 drop-shadow-lg">
           <p>🌼</p>
-          Iris Flower Predictor
+          <span>Iris Flower Predictor</span>
         </h2>
 
         <form onSubmit={handleSubmit} className="space-y-6">
