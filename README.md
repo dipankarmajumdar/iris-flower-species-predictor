@@ -34,7 +34,7 @@ backend/ ├── app.py # Flask API for predictions ├── train_model.py #
    python app.py
    ```
 
-The API will be available at `http://localhost:5000`.
+The API will be available at `https://iris-flower-predictor-8x7m.onrender.com`.
 
 4. **API Endpoints**
    - **GET** `/`: Health check route.
@@ -75,7 +75,7 @@ frontend/
    npm run dev
    ```
 
-   The app will be available at `http://localhost:5173`.
+   The app will be available at `https://iris-flower-species-predictor.vercel.app`.
 
 3. **Build for Production**
    To build the frontend for production, run:
