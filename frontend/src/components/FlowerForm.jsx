@@ -39,7 +39,10 @@ const FlowerForm = () => {
     }
 
     try {
-      const res = await axios.post("http://localhost:5000/predict", formData);
+      const res = await axios.post(
+        "https://iris-flower-predictor-8x7m.onrender.com/predict",
+        formData
+      );
       setPrediction(res.data.prediction);
       setError("");
     } catch (err) {
